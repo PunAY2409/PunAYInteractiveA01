@@ -1,13 +1,32 @@
 /* COMMENT: define the specific class to make style changes to (eg. make the font bigger/do padding/change colour of object, etc.) */
+.header {
+    font-size: 50px;
+    padding: 10px 50px;
+    margin:auto;
+    text-align:center;
+    width:1000px;
+}
+
+
+.subheader {
+    font-size: 30px;
+    padding: 20px 50px;
+    margin:auto;
+    text-align:center;
+    width:1500px;
+}
+
 .question {
-    padding: 5px 80px;
+    font-size: 40px;
+    padding: 15px 80px;
     margin:auto;
     text-align:center;
     width:1000px;
 }
 
 .answer {
-    padding: 10px 50px;
+    font-size: 28px;
+    padding: 20px 50px;
     margin:auto;
     text-align:center;
     width:1000px;
@@ -15,14 +34,14 @@
 
 .gif-grid {
     display: grid;
-    grid-template-columns: repeat(2, 350px);
-    gap: 20px;
+    grid-template-columns: repeat(2, 450px);
+    gap: 90px;
     justify-content: center; 
     margin-top: 20px;
-    padding: 0 30px;
+    padding: 0 120px;
 }
 
 .gif-grid img {
-    width: 350px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
