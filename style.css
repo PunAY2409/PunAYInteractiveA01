@@ -35,10 +35,10 @@
 .gif-grid {
     display: grid;
     grid-template-columns: repeat(2, 450px);
-    gap: 90px;
+    gap: 70px;
     justify-content: center; 
     margin-top: 20px;
-    padding: 0 120px;
+    padding: 0 50px;
 }
 
 .gif-grid img {
